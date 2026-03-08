@@ -8,8 +8,8 @@ This project was developed as part of a university **User Interface Design** cou
 
 ## Technologies
 
-- :contentReference[oaicite:2]{index=2}
-- :contentReference[oaicite:3]{index=3}
+- React
+- ReactNative
 - CSS
 
 ---
