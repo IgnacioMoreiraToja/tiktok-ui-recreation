@@ -1,0 +1,23 @@
+.ProfileContainer {
+    width: 1207px;
+    height: 890px;
+    padding: 24px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.postsProfileSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.errorFriends a {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.errorFriends a:hover {
+    font-size: 21px;
+}

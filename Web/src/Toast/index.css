@@ -1,0 +1,21 @@
+.toast {
+    bottom: 20px;
+    right: 20px;
+    background-color: #FE2C55;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    transition: all 0.5s;
+}
+
+.toast-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+

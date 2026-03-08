@@ -1,0 +1,25 @@
+.friendSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    align-self: flex-start;
+    justify-content: center;
+    width: 1163px;
+    height: auto;
+    max-height: 832px;
+    gap: 10px;
+    
+}
+
+.errorFriends {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 1163px;
+    height: 55px;
+}

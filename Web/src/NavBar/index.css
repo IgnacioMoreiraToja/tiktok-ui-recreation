@@ -1,0 +1,110 @@
+.NavBarContainer {
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    height: 60px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.TikTokLogo {
+    justify-content: flex-start;
+    grid-column: 1;
+    cursor: pointer;
+}
+
+
+.SearchBarContainer {
+    grid-column: 2;
+    display: flex;
+    width: 500px;
+    background-color: #F1F1F2;
+    padding: 10px 16px 10px 15px;
+    gap: 6px;
+    border-radius: 40px;
+    border: none;
+}
+
+.SearchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.SearchBarInput {
+    width: 94%;
+    justify-self: flex-start;
+    gap: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display:flex;
+    flex-direction: flex-start;
+    
+}
+
+.SearchLogoButton {
+    display: flex;
+    justify-self: flex-end;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.SearchLogo {
+    vertical-align: top;
+    filter: invert(90%) sepia(10%) saturate(76%) hue-rotate(201deg) brightness(78%) contrast(87%);
+}
+
+.ButtonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    gap: 10px;
+
+}
+.Buttons {
+    width: 100px;
+    height: 46px;
+    border-radius: 4px;
+    border-color: #FE2C55;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+.ButtonRegister {
+    color: #FE2C55;
+    background-color: #FFFFFF;
+    border-style: solid;
+}
+
+.addButton {
+    width: 113px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid var(--grey-600, #AAAAAE);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ButtonRegister:hover {
+    background-color: #FFEFF2;
+}
+
+.ButtonLogIn {
+    color:#FFFFFF;
+    background-color: #FE2C55;
+    border-style: inherit;  
+}
+
+.ButtonLogIn:hover {
+    background-color: #EF2A51;
+}

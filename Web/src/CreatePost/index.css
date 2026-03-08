@@ -1,0 +1,34 @@
+.CreatePostContainer {
+    width: 348px;
+    height: 397px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 0px #00000040;
+
+}
+
+.CreatePostContainerBig {
+    width: 348px;
+    height: 497px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 0px #00000040;
+}
+
+.AboveText {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    align-self: flex-start;
+}

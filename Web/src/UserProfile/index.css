@@ -1,0 +1,90 @@
+.userProfileContainer{
+    height: 194px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 16px;
+    box-shadow: 0px 0px 4px 0px #00000040;
+
+}
+
+.roundedImage {
+    width: 48px; 
+    height: 48px; 
+    border-radius: 50%; 
+}
+
+.userThingsUserProfileContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.userNameUserProfile {
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    padding: 4px;
+}
+
+.buttonLogOutContainer {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.buttonLogOut {
+    width: 100px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px;
+    border-color: #FE2C55;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FE2C55;
+    background-color: #FFFFFF;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.buttonLogOut:hover {
+    background-color: #FFEFF2;
+}
+
+.followsUserProfileContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    width: auto;
+    height: 44px;
+    gap: 10px;
+    padding: 11px, 6px, 11px, 6px;
+}
+
+.followInfo {
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    font-weight: 300;
+    gap: 4px;
+}
+
+.number {
+    font-weight: 700;
+}
+
+.buttonFollowFriend{ 
+    background-color: #FE2C55;
+    color: white;
+}
+
+.buttonUnfollowFriend{ 
+    background-color: white;
+    color: #FE2C55;
+    border-color: #FE2C55;
+}

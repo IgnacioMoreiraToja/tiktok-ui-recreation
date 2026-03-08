@@ -1,0 +1,25 @@
+.RegisterContainer {
+    width: 348px;
+    height: 498px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 8px;  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 0px #00000040;
+    margin-top: 90px;
+}
+
+.RegisterContainerBig {
+    width: 348px;
+    height: 598px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 0px #00000040;
+    margin-top: 90px;
+}

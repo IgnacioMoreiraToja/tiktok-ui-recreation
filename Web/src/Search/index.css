@@ -1,0 +1,74 @@
+.SearchContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1211px;
+    height: 880px;
+    top: 76px;
+    left: 281px;
+    padding: 24px;
+    gap: 16px;
+}
+
+.SearchText {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 229px;
+    height: 89px;
+    padding: 25px 0px 25px 0px;
+    gap: 10px;
+}
+
+.SearchWord {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.QueryWord {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Title {
+    width: 81px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    text-align: center;
+}
+
+.SearchUsersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.SearchPostsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Error{
+    display: flex;
+    height : 200 px;
+    width: 100%;
+    font-weight: 500;
+    border-color: black;
+    border-radius: 8px;
+    border: 4px solid;
+    justify-content: center;
+    align-self: center;
+}
+
+.Info {
+    display: flex;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}

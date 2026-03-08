@@ -1,0 +1,28 @@
+.PostPageContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1,211px;
+    height: 880px;
+    top: 76px;
+    left: 281px;
+    padding: 24px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.commentSectionPostPageContainer{
+    width: 628px;
+    height: 832px;
+    padding: 4px 12px 4px 12px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.videoPostPageContainer video{
+    width: 519px;
+    height: 832px;
+    padding: 4px;
+    gap: 10px;
+    opacity: 0px;
+}

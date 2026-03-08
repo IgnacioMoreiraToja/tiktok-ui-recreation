@@ -1,0 +1,23 @@
+.postsHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    width: 1163px;
+    /* height: auto; */
+    /* max-height: 832px; */
+    gap: 10px;
+}
+
+.errorPosts {
+    font-size: 20px;
+    font-weight: 500; 
+    padding: 15px;
+    border: 2px solid red;
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}    
+    

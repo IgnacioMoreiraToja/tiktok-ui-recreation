@@ -1,0 +1,159 @@
+.PostContainer {
+  display: grid;
+  grid-template-columns: 88px 392px 120px; 
+  grid-template-rows: 20% 80%;
+  align-items: center;
+  gap: 10px;
+  padding: 20px; 
+  height: 670px;
+  width: 600px;
+}
+
+.SuperiorContainer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row: 1;
+  display: grid;
+  width: 600px;
+}
+/*Posicionamiento del container del video y los buttones. */
+.inferiorContainer {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 300px 200px;  
+}
+
+.textContainer {
+  display: flex;
+  width: 392px; 
+  margin-left: 2rem; 
+  flex-direction: column;
+  align-items: flex-start; /*Los pone en borde izquierdo */
+}
+
+.textContainer div {
+  margin-top: 4px;
+}
+
+.textContainer .userCont {
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.textContainer .userCont:hover{
+  text-decoration: underline;
+}
+
+.textContainer .titleCont {
+  margin-top: 4px;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 500;
+}
+
+.textContainer .descriptionCont {
+  font-size: 16px;
+  line-height: 21.78px;
+  font-weight: 500;
+  text-align: left;
+}
+.imageUser {
+  width: 56px; 
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 1rem 
+}
+
+.buttonFollow {
+  grid-column: 3;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.78px;
+  width: 100px;
+  height: 46px;
+  color: var(--color-rojo);
+  background-color: white;
+  border-radius: 4px;
+  border-color: var(--color-rojo);
+  cursor: pointer;
+  border-style: solid;
+}
+
+.buttonFollowHidden {
+  grid-column: 3;
+  width: 100px;
+  height: 46px;
+}
+
+.buttonFollow:hover {
+  background-color: #FFEFF2;
+}
+
+.VideoContainer {
+    width: 320px;
+    height: 500px;
+  }
+  
+  video {
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+
+  .roundedButton {
+    width: 50px; 
+    height: 50px; 
+    background-color: #E7E7E8;
+    border-radius: 50%; /* Forma circular */
+    border: none; /* Sin borde */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+
+.roundedButtonLiked {
+  width: 50px;
+  height: 50px;
+  background-color: #E7E7E8;
+  border-radius: 50%; /* Forma circular */
+  border: none; /* Sin borde */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.roundedButtonLiked img {
+  filter: invert(18%) sepia(94%) saturate(6693%) hue-rotate(358deg) brightness(119%) contrast(114%);
+}
+
+.roundedButton img #corazon {
+    width: 50px; 
+    height: 50px; 
+}
+
+
+
+#share {
+  margin-bottom: 7px;
+}
+
+
+.RoundedButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+  grid-column: 2;
+  grid-row: 2;
+  align-items: center; 
+}
+

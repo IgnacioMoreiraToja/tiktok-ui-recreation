@@ -1,0 +1,47 @@
+.PostProfileContainer {
+  display: flex;
+  flex-direction: column;
+  height: 422px;
+  width: 272px;
+  padding: 4px;
+  align-items: left;
+  cursor: pointer;
+}
+
+.textContainerPostProfile {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 64px;
+  opacity: 0px;
+  margin-top: 4px;
+  margin-left: 5px;
+  overflow-y: hidden;
+}
+
+.VideoContainerPostProfile {
+  width: 272px;
+  height: 350px;
+}
+
+.VideoContainerPostProfile video {
+  height: 350px;
+  width: 260px;
+  object-fit: cover;
+}
+
+.titleContPostProfile {
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.descriptionContPostProfile {
+  white-space: normal;
+  font-size: 16px;
+  line-height: 21.78px;
+  font-weight: 500;
+  text-align: left;
+}
+  
